@@ -1,0 +1,763 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?vae20u');
+    src:  url('fonts/icomoon.eot?vae20u#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?vae20u') format('truetype'),
+    url('fonts/icomoon.woff?vae20u') format('woff'),
+    url('fonts/icomoon.svg?vae20u#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-wechat:before {
+    content: "\e901";
+}
+.icon-qq:before {
+    content: "\e900";
+}
+.icon-happy:before {
+    content: "\e9df";
+}
+.icon-tongue:before {
+    content: "\e9e3";
+}
+.icon-grin:before {
+    content: "\e9e9";
+}
+.icon-cool:before {
+    content: "\e9eb";
+}
+.icon-evil:before {
+    content: "\e9ef";
+}
+.icon-shocked:before {
+    content: "\e9f1";
+}
+.icon-hipster:before {
+    content: "\e9f9";
+}
+.icon-hipster2:before {
+    content: "\e9fa";
+}
+.icon-crying:before {
+    content: "\ea01";
+}
+.icon-sina-weibo:before {
+    content: "\ea9a";
+}
+/*字体图标*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.total {
+    background: url("../img/sky5.png") no-repeat center;
+    height:1950px;
+    width:100%;
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+}
+/*nav___________________________________________*/
+.nav{
+    position: fixed;
+    top:0px;
+    left: 25px;
+    width: 1300px;
+    height: 62px;
+    margin: 0px auto;
+    background-color: white;
+    border: solid 3px #72B4E9 ;
+    border-radius: 10px;
+    /*-webkit-border-radius: 10px;*/
+    /*-moz-border-radius: 10px;*/
+    /*!*border-radius: 10px;*!*/
+    /*!*behavior: url(PIE.htc);*!*/
+    /*behavior:url(pie.php);*/
+    z-index: 100;
+}
+.nav-list{
+    margin: 8px 60px;
+}
+.nav-list ul{
+    list-style: none;
+}
+.nav-list ul li a {
+    float: left;
+    margin-left: 40px;
+    line-height: 56px;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    text-decoration: none;
+}
+.nav-tel{
+    float: right;
+    width: 140px;
+    height: 20px;
+    margin-right: 59px;
+    background-color: #b9def0;
+    border: solid 1px #31b0d5;
+    border-radius: 10px;
+}
+.nav-tel:hover{cursor: pointer;color:deepskyblue}
+/*train*/
+.welcomeTrain{
+    width: 180px;
+    height: auto;
+    position: absolute;
+    left: -187px;
+}
+.trainBox{
+    position: absolute;
+    left: 340px;
+    top: 70px;
+    width:900px;
+    height: 80px;
+    overflow: hidden;
+}
+/*banner___________________________________________*/
+.banner{
+    margin: 10px auto;
+    margin-top: 100px;
+    width: 1188px;
+    height: 500px;
+}
+.bigBanner{
+    width: 937px;
+    height: 300px;
+    position: absolute;
+    left: 210px;
+    top:143px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.banner-left{
+    position: absolute;
+    top:270px;
+    left: 150px;
+    width: 40px;
+    height: 48px;
+}
+.banner-left:hover{
+    background-color: rgba(91,91,91,0.6);
+    cursor: pointer;
+}
+.banner-right:hover{
+    background-color: rgba(91,91,91,0.6);
+    cursor: pointer;
+}
+.banner-right{
+    position: absolute;
+    top:270px;
+    left: 1165px;
+    width: 40px;
+    height: 48px;
+}
+.skill-caption{
+    line-height: 33px;
+    /*font-weight: bold;*/
+    font-size: 29px;
+    font-family: Lobster, Monospace;
+    border-bottom: solid white 3px;
+    width: 800px;
+    margin: 6px auto;
+    color: gray;
+    position:absolute;
+    left: 135px;
+}
+.topNum1{
+    top:90px;
+}
+.topNum2{
+    top:528px;
+}
+
+.topNum4{
+    top:1027px;
+}
+.topNum5{
+    top:1350px;
+}
+/*life________________*/
+.life-box{
+    width:1028px;
+    height: 383px;
+    position: absolute;
+    left: 143px;
+    top:600px;
+    background: url("../img/middleBox.png") no-repeat;
+}
+/*skill__________________________________________*/
+.timeBox{
+    position: absolute;
+    left: 810px;
+    top:620px;
+    width: 315px;
+    height: 315px;
+}
+#placeholder{
+    width: 227px;
+    height: 206px;
+    position: absolute;
+    left: 43px;
+    top:56px;
+    border-radius: 10px;
+}
+#description{
+    position: absolute;
+    left: 220px;
+    top:628px;
+    width: 555px;
+    height: 276px;
+}
+.timeText{
+    position: absolute;
+    left: 220px;
+    top:703px;
+    width: 553px;
+    height: 213px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: solid 2px ghostwhite;
+
+}
+.changeButton{
+    position: absolute;
+    left: 300px;
+    top:940px;
+    width: 548px;
+    height: 45px;
+    background-color: rgba(0,77,156,0.3);
+    /*ie写法，透明度*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F83B5D7,endColorstr=#7F83B5D7);
+    border-radius: 20px;
+}
+.changeButton ul{
+    list-style: none;
+}
+.changeButton ul li{
+    float: left;
+}
+.changeButton ul li a{
+    text-decoration: none;
+}
+.lifeIcon{
+    line-height: 40px;
+    margin: 2px 15px;
+    color:white;
+    font-size: 30px;
+}
+.lifeIcon:hover{
+    color:royalblue;
+}
+/*skill___________________________________________*/
+.skill-box{
+    width: 1215px;
+    height: 253px;
+    margin: 20px 80px;
+    position: absolute;
+    left: 100px;
+    top:1085px;
+}
+.skill ul{
+    list-style: none;
+    margin: 20px 50px;
+}
+.skill ul li {
+    float: left;
+}
+.skill ul li a{
+    display: block;
+    margin-top: 20px;
+}
+.skill  ul li a img{
+    border-radius: 90px;
+    width: 180px;
+    height: 180px;
+
+}
+.skill ul:hover img{
+    opacity: 0.45;
+}
+.skill  ul li img:hover {
+    opacity:1;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid #e4b9c0;
+    z-index: 20;
+    cursor: pointer;
+}
+/*bottom-left___________________________________________*/
+.bottom-left{
+    position: absolute;
+    top:1400px;
+    left: 100px;
+    height: 430px;
+    width: 754px;
+}
+.tvBox{
+    position: absolute;
+    top:122px;
+    left: 90px;
+    width: 467px;
+    height: 260px;
+    overflow: hidden;
+}
+#tvBtn{
+    list-style: none;
+    position: absolute;
+    top:160px;
+    left: 585px;
+}
+#tvBtn li:hover{cursor: pointer}
+.tvgirl{
+    position: absolute;
+    top:320px;
+    left: 620px;
+    width: 130px;
+    height: auto;
+}
+#tvBtn li{margin: 12px}
+#tvBtn a{
+    text-decoration: none;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.tvKuang{
+    position: absolute;
+}
+.bottom-right{
+    position: absolute;
+    top:1420px;
+    left: 890px;
+}
+.bottom-right embed{
+    border-radius: 12px;
+    position: absolute;
+    top:360px;
+    left: 10px;
+}
+.ear{
+    position: absolute;
+    top:190px;
+    left: 160px;
+}
+.msc1{position: absolute;
+    top:160px;
+    left: 320px;
+    -webkit-animation:starMoving 2.1s infinite;
+    -moz-animation:starMoving 2.1s infinite;
+    -o-animation:starMoving 2.1s infinite;
+    animation:starMoving 2.1s infinite;
+}
+.msc2{position: absolute;
+    top:230px;
+    left: 140px;
+    -webkit-animation:starMoving 2.4s infinite;
+    -moz-animation:starMoving 2.4s infinite;
+    -o-animation:starMoving 2.4s infinite;
+    animation:starMoving 2.4s infinite;}
+.msc3{position: absolute;
+    top:250px;
+    left: 170px;
+    -webkit-animation:starMoving 2.3s infinite;
+    -moz-animation:starMoving 2.3s infinite;
+    -o-animation:starMoving 2.3s infinite;
+    animation:starMoving 2.3s infinite;}
+/*foot___________________________________________*/
+.hr{
+    width: 96%;
+    position: absolute;
+    top:1850px;
+    left: 0px;
+    border: solid 1px black;
+    margin:20px 27px;
+}
+.foot{
+    position: absolute;
+    top:1850px;
+    left: 0px;
+    width: 1300px;
+}
+.foot p{
+    margin-left: 460px;
+    line-height: 80px;
+    width: 400px;
+}
+.toolbar{
+    position: fixed;
+    right: 29px;
+    bottom: 80px;
+    height: 200px;
+    width: 50px;
+    list-style: none;
+}
+.position{
+    position: relative;
+}
+.toolbar-it{
+    width: 45px;
+    height: 45px;
+    margin-top: 6px;
+    float: left;
+}
+.toolbar-icon{
+    width: 45px;
+    height: 45px;
+    background-color:#51A4E5 ;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 9px;
+    border: solid 2px white;
+}
+.toolbar-icon:hover {
+    border: solid 2px #5bc0de;
+    background-color:white ;
+    color: #51A4E5;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.toolbar-pic{
+    position: absolute;
+    right: 53px;
+    border: solid 1px #31b0d5;
+    border-radius: 10px;
+    opacity: 0;
+    filter: alpha( opacity= 0);
+    box-shadow: silver 3px 3px 5px ;
+    -o-transform-origin: right bottom;
+    -moz-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+
+    transform: scale(0.01);
+    -o-transform: scale(0.01);
+    -ms-transform: scale(0.01);
+    -webkit-transform: scale(0.01);
+    -moz-transform: scale(0.01);
+
+    transition: all 0.7s ;
+    -webkit-transition: all 0.7s ;
+    -moz-transition: all 0.7s ;
+    -o-transition: all 0.7s ;
+    -ms-transition: all 0.7s ;
+}
+.toolbar-pic img{
+    border-radius: 10px;
+}
+.toolbar-weibo{
+    bottom: -52px;
+}
+.toolbar-wechat{
+    bottom: -106px;
+}
+.toolbar-qq{
+    bottom: -155px;
+}
+.icon-sina-weibo:hover  +.toolbar-weibo{
+    opacity: 1;
+    filter: alpha( opacity=100);
+    transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+}
+.icon-qq:hover  +.toolbar-qq{
+    opacity: 1;
+    filter: alpha( opacity=100);
+    transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+}
+.icon-wechat:hover  +.toolbar-wechat{
+    opacity: 1;
+    filter: alpha( opacity=100);
+    transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+}
+/*首页的css*/
+.back{
+    width: 100%;
+    height:668px;
+    position: relative;
+    /*background-size: 100%;*/
+}
+.textBox{
+    position: absolute;
+    left: 200px;
+    top: -130px;
+    z-index: 1;
+}
+.textBox img{
+    width: 751px;
+    height: 692px;
+}
+.star{
+    position: absolute;
+    left: 748px;
+    top: 400px;
+    z-index: 1;
+}
+.star img{
+    width: 250px;
+    height:auto;
+}
+/*触及海星效果*/
+@keyframes  starMoving{
+    0%,100%{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    25%{
+        -webkit-transform: rotate(15deg);
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -o-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    50%{
+        -webkit-transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
+    75%{
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+    85%{
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+}
+@-webkit-keyframes  starMoving{
+    0%,100%{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    25%{
+        -webkit-transform: rotate(15deg);
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -o-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    50%{
+        -webkit-transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
+    75%{
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+    85%{
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+}
+@-moz-keyframes  starMoving{
+    0%,100%{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    25%{
+        -webkit-transform: rotate(15deg);
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -o-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    50%{
+        -webkit-transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
+    75%{
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+    85%{
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+}
+@-o-keyframes  starMoving{
+    0%,100%{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    25%{
+        -webkit-transform: rotate(15deg);
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -o-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    50%{
+        -webkit-transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
+    75%{
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+    85%{
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+}
+.movestar:hover  {
+    -webkit-animation:starMoving 0.5s alternate;
+    -moz-animation:starMoving 0.5s alternate;
+    -o-animation:starMoving 0.5s alternate;
+    animation:starMoving 0.5s alternate;
+}
+.tvgirl{
+    -webkit-animation:starMoving 2s infinite;
+    -moz-animation:starMoving 2s infinite;
+    -o-animation:starMoving 2s infinite;
+    animation:starMoving 2s infinite;
+}
+.text span{
+    font-size: 17px;
+}
+.textAll{
+    width: 480px;
+    height: 200px;
+    position: absolute;
+    left: 170px;
+    top:370px;
+}
+.text1 .girl{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top:225px;
+    left: 662px;
+}
+.text1 p{
+    font-size: 16px;
+    line-height: 30px;
+    text-indent: 2em;
+}
+.text1 span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.text2{
+    position: absolute;
+    left: 260px;
+    top:167px;
+}
+.myName img {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 380px;
+    top: -180px;
+}
+.myName{
+    opacity: 0;
+    filter: alpha( opacity=0);
+    -o-transform-origin: right top;
+    -moz-transform-origin: right top;
+    -ms-transform-origin: right top;
+    -webkit-transform-origin: right top;
+    transform-origin: right top;
+
+    transform: scale(0.01);
+    -o-transform: scale(0.01);
+    -ms-transform: scale(0.01);
+    -webkit-transform: scale(0.01);
+    -moz-transform: scale(0.01);
+
+    transition: all 1s ;
+    -webkit-transition: all 1s ;
+    -moz-transition: all 1s ;
+    -o-transition: all 1s ;
+    -ms-transition: all 1s ;
+}
+.text1:hover   .myName {
+    opacity: 1;
+    filter: alpha( opacity=100);
+    transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+}
+.text1:hover{
+    cursor: pointer;
+}
